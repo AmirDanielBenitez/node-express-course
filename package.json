@@ -20,5 +20,12 @@
   "homepage": "https://github.com/AmirDanielBenitez/node-express-course#readme",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "test/*",
+      "docs/*"
+    ],
+    "delay": 2500
   }
 }
